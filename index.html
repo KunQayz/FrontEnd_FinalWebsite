@@ -4,40 +4,46 @@
 <meta charset="utf-8"> 
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
 <meta name="viewpoint" content="width=device-width, intial-scale=1"/>
-<title> DMU ZOO </title>
+<title> QAYZ BLOG </title>
 </head>
 <body>
 
-<img id="logo" src="Images\logo.jpg"/>
+<!-- <img id="logo" src="Images\logo.jpg"/> -->
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#tickets">Animals</a>
-  <a href="#animals">Tickets</a>
-  <a href="#contactus">Contact us</a>
-    <a href="#contactus">Feeback</a>
+  <a href="index.html" class="active" id="home">Home</a>
+  <a href="aboutme.html"id="aboutme">About Me</a>
+  <a href="#animals"id="years">Along the years</a>
+  <a href="#contactus" id="contactme">Contact me</a>
+   
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-<table>
-  <tr>
-    <th>Come and see these wild animals :D</br> asnjfnasfsjkdjsaj fjsnfjsfsnflask</br> fsfjanfsnfkan</th>
-    <th><img src="Images\tiger.jpg" alt="first"></th>
-  </tr>
-  <tr>
-    <td><img src="Images\butterfly.jpg" alt="first"></td>
-    <td><img id="monk" src="Images\walkingmonk.jpg" alt="second"></td>
-	 
-  </tr>
-  <tr>
-  <td><img id="parrot" src="Images\parrots.jpg"></td>
-    
-  </tr>
-</table>
+<section>
 
+<img src="Images/Capture.PNG" alt="name">
 
-<section> 
 </section>
 
+<img class="slides" src="Images\image1.jpg" alt="first">
+<img class="slides" src="Images\image2.jpg" alt="first">
 
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+</script>
 
 <script>
 function myFunction() {
