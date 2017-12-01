@@ -1,13 +1,14 @@
 
 body {
 	margin:0;
-	background-color:#090A0A;
+	background-color:#ffffff;
 	color:white;
 	margin-left: 5em;
 	margin-right: 13em;
 	
 	}
-	.homepage {
+	
+.homepage {
   padding-top: 12em;
   margin-left: 10em;
   font-family: Monotype Corsiva;
@@ -39,7 +40,6 @@ body {
 	}
 ul.topnav {
   list-style-type: none;
- 
   padding: 0;
   overflow: hidden;
   background-color: #333;
@@ -63,12 +63,46 @@ ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
 
+.place{
+	width:100%;
+	height:350px;
+	margin-top:2%;
+	
+}
 
+.place2{
+	width:100%;
+	height:400px;
+	margin-top:2%;
+}
+
+.study{
+	width:30%;
+	float:left;
+	text-align: left;
+	color: black;
+	font-family: DengXian;
+	font-size: 15px;
+}
+.study1{
+	width:50%;
+	float:left;
+	text-align: left;
+	color: black;
+	font-family: DengXian;
+	font-size: 15px;
+}
+.study img{
+	width:90%;
+	height:20%;
+}
  
 .about{
 	width:100%;
 	height:400px;
 	margin-top:2%;
+	color: black;
+	font-family: DengXian;
 }
 .abt{
 	width:65%;
@@ -90,17 +124,12 @@ hr {
 }
 .hobby{
 	width:100%;
-	height:250px;
+	height:300px;
 	margin-top:2%;
+	color: black;
+	font-family: DengXian;
 }
-.boxes{
-	width:15%;
-	float:left;
-	}
-.boxes img{
-	width:80%;
-	height:20%;
-}
+
 .me{
 	background-image:url("../img/me.jpg");
 	 background-repeat: no-repeat;
@@ -108,6 +137,12 @@ hr {
 	height:900px;
 	background-color:white;
 	color:red;
+	
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 input[type=text], select, textarea {
     width: 100%;
@@ -138,6 +173,17 @@ input[type=submit]:hover {
    
     padding: 20px;
 }
+footer {
+    margin-top:2%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+	height:70px;
+	
+}
 
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
@@ -148,6 +194,34 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width:680px) {
+	
+	body{
+		
+		margin:0%;
+		width:100%;
+		margin-left:1%;
+	}
+	.me{
+	background-image:url("../img/me.jpg");
+	 background-repeat: no-repeat;
+	width:6em;
+	/* margin-left:-30%; */
+	float:left;
+	/* background-color:white; */
+	/* color:red; */
+	
+}
+footer {
+    margin-top:2%;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+	height:70px;
+	
+}
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
@@ -162,19 +236,11 @@ input[type=submit]:hover {
     display: block;
     text-align: left;
   }
+  
+  
 }
 
-footer {
-    margin-top:2%;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    text-align: center;
-	height:70px;
-	
-}
+
 
 .fa {
   padding: 20px;
