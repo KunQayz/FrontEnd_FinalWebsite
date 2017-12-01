@@ -1,93 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8"> 
-<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
-<meta name="viewpoint" content="width=device-width, intial-scale=1"/>
-<title> QAYZ BLOG </title>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/javaScript.js"></script>
 </head>
 <body>
 
-<!-- <img id="logo" src="Images\logo.jpg"/> -->
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active" id="home">Home</a>
-  <a href="aboutme.html"id="aboutme">About Me</a>
-  <a href="#animals"id="years">Along the years</a>
-  <a href="#contactus" id="contactme">Contact me</a>
-   
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
+<div class="mcontainer">
 <header>
-<h1> About Me </h1>
+<h1>Qayas Vajarali</h1>
 </header>
-<div class="menu">
----------------------------------------------</br>
----------------------------------------------</br>
----------------------------------------------</br>
-------------------------------------------------</br>
-------------------------------------------------</br>
--------------------------------------------------</br>
------------------------------------------------------</br>
-------------------------------------------------------</br>
----------------------------------------------------------</br>
------------------------------------------------------------</br>
---------------------------------------------------------------</br>
-------------------------------------------------------------</br>
----------------------------------------------------------------</br>
-</div>
+<ul class="topnav" id="myTopnav">
 
-<img id="picture" src="Images\image2.jpg"/>
-<header>
-<h2> Fun Facts </h2>
-</header>
-<div class="main">
----------------------------------------------</br>
----------------------------------------------</br>
----------------------------------------------</br>
-------------------------------------------------</br>
-------------------------------------------------</br>
--------------------------------------------------</br>
------------------------------------------------------</br>
-------------------------------------------------------</br>
----------------------------------------------------------</br>
------------------------------------------------------------</br>
---------------------------------------------------------------</br>
-------------------------------------------------------------</br>
----------------------------------------------------------------</br>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="aboutme.html">About Me</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
+
+<main>
+<div class="about">
+<h1>Personal Bio</h1>
+
+<div class="abt1">
+<img src="img/abt.jpg" alt="Smiley face">
 </div>
-<h3>Hobbies</h3>
-<div class="hobbies">
----------------------------------------------</br>
----------------------------------------------</br>
----------------------------------------------</br>
-------------------------------------------------</br>
-------------------------------------------------</br>
--------------------------------------------------</br>
------------------------------------------------------</br>
+<div class="abt">
+<p>
+Hi my name is Qays, I am a final year Computing student, currently studying at De Montfort University in Leicester.
+This years' course consists of: Team Development, Computing Ethics, Privacy and Data Protection, Multi Service-Networks 1&2, 
+Front-End Development and Database Managment. In my second year I achieved a 1st Class by hard work an determination, I plan 
+to contuinue working my hardest to maintain this grade for this last hurdle. 
+</p>
 
 </div>
+</div>
+<hr>
+<div class="hobby">
+<h1>Hobbies</h1>
+<p> 
+In my spare time I mainly like socialising with my friends. I also like playing sports like football and cricket, I also
+enjoy watching these sports. Another thing I like to do in my spare time is reading technology magazines and also i like to read 
+code journals online.
+</p>
 
-<img id="picture2" src="Images\image1.jpg"/>
+</div>
+</main>
+<footer>
 
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-snapchat-ghost"></a>
 
-
-
-
-
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
-
-
-
-
-
+</footer>
+</div>
 </body>
 </html>
