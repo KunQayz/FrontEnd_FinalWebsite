@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="js/javaScript.js"></script>
+<script src="js/slideshow.js"></script>
 </head>
 <body>
 
@@ -28,7 +29,12 @@
 <h1>Personal Bio</h1>
 
 <div class="abt1">
-<img src="img/abt.jpg" alt="Smiley face">
+
+  <img class="mySlides" src="img/image1.jpeg">
+  <img class="mySlides" src="img/image2.jpeg">
+  <img class="mySlides" src="img/image3.jpeg">
+  <img class="mySlides" src="img/image4.jpeg">
+
 </div>
 <div class="abt">
 <p>
@@ -43,9 +49,14 @@ to continue working my hardest to maintain this grade for this last hurdle.
 <hr>
 <div class="hobby">
 <h1>Hobbies</h1>
-<div class="abt1">
-<img src="img/abt.jpg" alt="Smiley face">
+
+<div class="abt2">
+  <img class="mySlides1" src="img/football.png">
+  <img class="mySlides1" src="img/cricket.png">
+  <img class="mySlides1" src="img/reading.png">
+
 </div>
+
 <div class="abt">
 <p> 
 In my spare time I mainly like socialising with my friends. I also like playing sports like football and cricket, I also
@@ -55,6 +66,38 @@ code journals online.I also enjoy playing video games such as Fifa 18 and The Un
 </div>
 </div>
 </main>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides1");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 <footer>
 
 <a href="#" class="fa fa-twitter"></a>
