@@ -68,4 +68,9 @@ How I solved this issue? (Responsiveness Navigation) – To solve this issue I h
 # Issues that have not been fixed?
 I did not get to solve the homepage; the issue was that the background images were not responsive. Another thing I could not solve was the API, my code is correct, but when it searches it does not display any results.
 
-# What have I learnt during this module? (Feedback)
+# User testing
+
+I had few of my friends test the website, thee average score I got was 6/10. Mainly the negative response was the homepage, this was because it was not responsive. Another negative was the form, when a user submits it it gives a response but then it doesn't redirect the user to the homepage. There were alot of good postive feedbacks like, the colour contrasts, layout and the slide shows.
+
+# Conclusion (Feedback)
+Overall during this project I have learnt alot of new things regarding front end development. A very intresting thing I found was the API's, I found it very nice and the way it functions. Overall I have enjoyed this module and found it very helpful for future references.
