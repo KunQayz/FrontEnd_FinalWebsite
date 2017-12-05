@@ -12,7 +12,7 @@ My new idea was a blog page, I started fresh and first of all decided how many p
 -	Education & Skills
 -	Contact me
 
-Also, I decided to make my pages responsive on mobile phones as well a normal desktop pc view. This is so the target audience wouldn’t need to be on a PC to view my website, also its more professional when its compatible on more than one device. I will also try to make sure my layout, structure and consistency of my website remains balanced as this will keep the website at a good usability and accessibility level.
+Also, I decided to make my pages responsive on mobile phones as well a normal desktop pc view. This is so the target audience wouldn’t need to be on a PC to view my website, also it’s more professional when it’s compatible on more than one device. I will also try to make sure my layout, structure and consistency of my website remains balanced as this will keep the website at a good usability and accessibility level.
 
 Target Audience, Colour contrasts, Font Management
 Target audience – My target audience can be aimed for everyone but, I chose to go with third year university student mainly this was because, students that are in their final year and are doing the same course can have a look at the website and they can get an idea of how it is.
@@ -23,7 +23,7 @@ Font Management- Throughout my whole website I chose to have different types of 
 
 # Git Commits & Branching
 
-Below is a image where I uploaded my website and where I did my commits, it also has my repositories and my branches.
+Below is an image where I uploaded my website and where I did my commits, it also has my repositories and my branches.
 
 ![branchrepo](https://user-images.githubusercontent.com/25174121/33620422-b8de29f6-d9df-11e7-8f9d-6a10b790d79d.jpg)
 
@@ -70,7 +70,7 @@ I did not get to solve the homepage; the issue was that the background images we
 
 # User testing
 
-I had few of my friends test the website, thee average score I got was 6/10. Mainly the negative response was the homepage, this was because it was not responsive. Another negative was the form, when a user submits it it gives a response but then it doesn't redirect the user to the homepage. There were alot of good postive feedbacks like, the colour contrasts, layout and the slide shows.
+I had few of my friends test the website, the average score I got was 6/10. Mainly the negative response was the homepage, this was because it was not responsive. Another negative was the form, when a user submits it gives a response but then it doesn't redirect the user to the homepage. There were a lot of good positive feedbacks like, the colour contrasts, layout and the slide shows.
 
 # Conclusion (Feedback)
-Overall during this project I have learnt alot of new things regarding front end development. A very intresting thing I found was the API's, I found it very nice and the way it functions. Overall I have enjoyed this module and found it very helpful for future references.
+Overall during this project I have learnt a lot of new things regarding front end development. A very interesting thing I found was the API's, I found it very nice and the way it functions. Overall I have enjoyed this module and found it very helpful for future references.
