@@ -21,6 +21,13 @@ Colour Contrasts -  I chose to make my website quite simple and plain, therefore
 
 Font Management- Throughout my whole website I chose to have different types of fonts on different sections of the website. For example, the logo will have a different font, the content will have different font and the homepage title will have a unique font. The sizing of the font is yet to be decided, but I have chosen to make it readable for all platforms.
 
+# Git Commits & Branching
+
+Below is a image where I uploaded my website and where I did my commits, it also has my repositories and my branches.
+
+![branchrepo](https://user-images.githubusercontent.com/25174121/33620422-b8de29f6-d9df-11e7-8f9d-6a10b790d79d.jpg)
+
+
 # Prototypes
 I created 2 different prototypes. One was created by hand sketch, this prototype had all the pages drawn out with key labelling’s. Another prototype I chose to create was a computerized PowerPoint, this prototype also had all the content that will exist on the website. Both the prototypes have been added to my GitHub.
 
