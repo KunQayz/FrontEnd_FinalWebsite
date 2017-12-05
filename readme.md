@@ -24,6 +24,16 @@ Font Management- Throughout my whole website I chose to have different types of 
 # Prototypes
 I created 2 different prototypes. One was created by hand sketch, this prototype had all the pages drawn out with key labelling’s. Another prototype I chose to create was a computerized PowerPoint, this prototype also had all the content that will exist on the website. Both the prototypes have been added to my GitHub.
 
+# Wireframe Sketches
+
+Mobile view 
+
+![image1](https://user-images.githubusercontent.com/25174121/33619903-4b440664-d9de-11e7-8763-37377b096157.jpeg)
+
+Desktop PC view
+
+![image2](https://user-images.githubusercontent.com/25174121/33620006-8fcc42c4-d9de-11e7-8e6d-ce506c6fc957.jpeg)
+
 # Features
 
 My website consists- 
