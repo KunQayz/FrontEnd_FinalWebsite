@@ -66,7 +66,7 @@ Navigation Responsiveness – The issue I had with the navigation was that the n
 How I solved this issue? (Responsiveness Navigation) – To solve this issue I had missed the ‘Meta’ code out, also I had to add in ‘margin-left’ this fixed the issue.
 
 # Issues that have not been fixed?
-I did not get to solve the homepage; the issue was that the background images were not responsive. Another thing I could not solve was the API, my code is correct, but when it searches it does not display any results.
+I did not get to solve the homepage; the issue was that the background images were not responsive.
 
 # User testing
 
